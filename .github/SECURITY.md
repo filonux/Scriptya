@@ -4,7 +4,7 @@ Scriptya es un script de uso local: no expone ningún servicio de red ni gestion
 
 ## Cómo reportarlo
 
-Escribe a **[Filonux]** con una descripción del problema y, si puedes, los pasos para reproducirlo.
+Escribe a **Filonux** con una descripción del problema y, si puedes, los pasos para reproducirlo.
 
 ## Qué NO es un problema de seguridad
 
