@@ -17,6 +17,8 @@
 
 ---
 
+<img width="530" height="457" alt="Scryptya-menu" src="https://github.com/user-attachments/assets/1a030077-92df-4d7b-a249-2e7c1a3d3e80" />
+
 ## El problema que resuelve
 
 Ejecutar, instalar, desinstalar, actualizar tus scripts, historial completo, personalización de iconos, integración en menú.
