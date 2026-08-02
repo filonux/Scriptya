@@ -55,7 +55,7 @@ El script sigue siendo un script normal: puedes ejecutarlo directamente (`./actu
 ## Instalación
 
 ```bash
-git clone https://github.com/TU-USUARIO/scriptya.git
+git clone https://github.com/filonux/scriptya.git
 cd scriptya/script
 chmod +x scriptya.sh
 ./scriptya.sh --install
@@ -147,7 +147,7 @@ scriptya/
 │   └── scriptya.sh
 ├── assets/
 │   ├── icon.png        # icono de la app (usado arriba en este README)
-│   └── Scryptya-menu.jpg         # captura de pantalla
+│  
 └── .github/
     ├── ISSUE_TEMPLATE/
     │   ├── bug_report.md
