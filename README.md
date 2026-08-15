@@ -55,7 +55,7 @@ El script sigue siendo un script normal: puedes ejecutarlo directamente (`./actu
 ## Instalación
 
 ```bash
-git clone https://github.com/filonux/scriptya.git
+git clone https://github.com/filonux/Scriptya.git
 cd scriptya/script
 chmod +x scriptya.sh
 ./scriptya.sh --install
