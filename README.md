@@ -17,11 +17,11 @@
 
 ---
 
-<img width="530" height="457" alt="Scryptya-menu" src="https://github.com/user-attachments/assets/1a030077-92df-4d7b-a249-2e7c1a3d3e80" />
+<img width="654" height="529" alt="menu-scriptya-actualizado" src="https://github.com/user-attachments/assets/720158e1-49e4-4343-978c-4bc9f6e83ee8" />
 
--Nueva Función "Cambiar Icono": cambiar los iconos de los scripts que tengas instalados tantas veces como quieras. Puedes cambiar incluso el icono de Scriptya por el subido en este repositorio en lugar del genérico que utiliza al instalarse
+-Nueva Función "Cambiar Icono": cambiar los iconos de los scripts o programas cualquiera que tengas instalados tantas veces como quieras. Puedes cambiar incluso el icono de Scriptya por el subido en este repositorio en lugar del genérico que utiliza al instalarse
 
-<img width="652" height="439" alt="Scriptya-menu-nuevo-cambiar-icono" src="https://github.com/user-attachments/assets/b14c37f6-b133-4fe5-b797-38df1a1f5fa1" />
+<img width="659" height="527" alt="2cambiar-icono-scriptya" src="https://github.com/user-attachments/assets/6cc7facb-22c2-4577-90f6-984add28f55a" />
 
 
 ## El problema que resuelve
@@ -36,6 +36,7 @@ Scriptya es un único fichero `.sh` sin dependencias obligatorias.
 - **Busca mientras escribes**, con [`fzf`](https://github.com/junegunn/fzf) si lo tienes instalado; si no, cae a un menú numerado clásico donde también puedes teclear texto para filtrar.
 - **Lee metadatos de cada script** (comentarios al principio del fichero) para decidir cómo mostrarlo y ejecutarlo: nombre bonito, descripción, si pide confirmación, si necesita `sudo`, si debe abrirse en una terminal nueva, en qué orden aparece y si necesita que le pases algún dato antes de arrancar.
 - **Convierte un script en una app independiente**, con su propio icono, en el menú de aplicaciones de Cinnamon y/o en el Escritorio — sin que tengas que escribir un `.desktop` a mano. Si le das una imagen, la recorta y le quita el fondo automáticamente (con ImageMagick).
+- **Cambia el icono de cualquier programa instalado**: el de Scriptya, el de un script que ya convertiste en app, o el de cualquier otra aplicación con entrada de menú — Firefox, GIMP, LibreOffice, venga de un `.deb`, un Flatpak o un Snap. Si es una app del sistema, el nuevo icono se guarda en una copia personal, sin tocar el original ni pedir contraseña.
 - **Guarda un historial** de cada ejecución: fecha, resultado y si usó `sudo`.
 - **Deja cambiar la carpeta de scripts** en cualquier momento, navegando con un selector de carpetas (usa el diálogo nativo del sistema si tienes `zenity`).
 
@@ -89,7 +90,7 @@ Si prefieres probarlo sin instalar nada en el sistema:
 | `scriptya --version` | Muestra la versión |
 | `scriptya --help` | Muestra la ayuda |
 
-Estas mismas acciones ("Instalar Scripts", "Desinstalar Scripts", "Buscar Scripts", "Ver Historial") también están disponibles desde el propio menú, al final de la lista de la carpeta raíz.
+Estas mismas acciones ("Instalar Scripts", "Desinstalar Scripts", "Cambiar Icono", "Buscar Scripts", "Ver Historial") también están disponibles desde el propio menú, al final de la lista de la carpeta raíz.
 
 ## Metadatos disponibles
 
@@ -113,6 +114,7 @@ Alternativa a `ORDER`: el orden alfabético ya lo respeta sin necesidad de metad
 - **Navegar y ejecutar**: entra en carpetas, ejecuta un script, vuelve atrás. Con `fzf` instalado escribes para filtrar en tiempo real; sin él, tecleas un número o un texto que filtra la lista.
 - **Instalar Scripts**: elige un script del árbol, un icono (navegando por imágenes o escribiendo un nombre de icono del sistema) y dónde quieres el acceso — menú de Cinnamon, Escritorio, o ambos.
 - **Desinstalar Scripts**: lista lo que has instalado como app independiente y te deja quitar uno, varios (separados por espacio) o todos.
+- **Cambiar Icono**: el de Scriptya, el de un script ya instalado, o el de cualquier otro programa del sistema — eliges a quién y luego la imagen nueva, igual que al instalar.
 - **Buscar Scripts**: cambia la carpeta de scripts activa, navegando con el selector nativo del sistema si tienes `zenity`.
 - **Ver Historial**: las últimas ejecuciones, con fecha, resultado (✓/✗) y si usaron `sudo`. Se guarda en `~/.local/share/scriptya/history.log`.
 
@@ -126,7 +128,7 @@ Dependencias opcionales — nada de esto es obligatorio, Scriptya funciona sin e
 |---|---|
 | `fzf` | Menú con búsqueda difusa en vez del menú numerado |
 | `zenity` | Selector de carpetas/imágenes nativo del sistema |
-| `imagemagick` | Ajuste automático de tamaño y transparencia al instalar un icono |
+| `imagemagick` | Ajuste automático de tamaño y transparencia al instalar o cambiar un icono |
 | `libnotify` (`notify-send`) | Notificación de escritorio cuando termina un script en terminal nueva |
 | `xdg-user-dirs` | Detecta la carpeta de Escritorio real, sea cual sea el idioma del sistema |
 
@@ -138,30 +140,10 @@ Scriptya está en español: menús, ayuda, mensajes y comentarios. No hay versi�
 
 - [ ] Traducción completa de menús, ayuda y mensajes al inglés
 - [ ] Forma de elegir idioma (detección del sistema o flag `--lang`)
-- [ ] Scripts de ejemplo también en inglés
+- [ ] Empaquetado en un .deb
 
 Si te interesaría usarlo en inglés, dilo en un issue — es la señal que necesito para priorizarlo.
-
-## Estructura del repositorio
-
-```
-scriptya/
-├── LICENSE
-├── README.md
-├── script/
-│   └── scriptya.sh
-├── assets/
-│   ├── icon.png        # icono de la app (usado arriba en este README)
-│  
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    │   ├── bug_report.md
-    │   └── feature_request.md
-    ├── PULL_REQUEST_TEMPLATE.md
-    ├── CONTRIBUTING.md
-    ├── CODE_OF_CONDUCT.md
-    └── SECURITY.md
-```
+Cuanto más apoyo reciba el proyecto más cambios le hiré incorporando.
 
 ## Contribuir
 
