@@ -18,7 +18,9 @@
 ---
 
 <img width="530" height="457" alt="Scryptya-menu" src="https://github.com/user-attachments/assets/1a030077-92df-4d7b-a249-2e7c1a3d3e80" />
+
 -Nueva Funcións: cambiar los iconos de los scripts que tengas instalados tantas veces como quieras. Puedes cambiar incluso el icono de Scriptya por el subido en este repositorio
+
 <img width="652" height="439" alt="Scriptya-menu-nuevo-cambiar-icono" src="https://github.com/user-attachments/assets/b14c37f6-b133-4fe5-b797-38df1a1f5fa1" />
 
 
