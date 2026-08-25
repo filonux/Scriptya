@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="96" alt="Icono de Scriptya">
+  <img src="assets/icon.png" width="140" alt="Icono de Scriptya">
 </p>
 
 <h1 align="center">Scriptya</h1>
