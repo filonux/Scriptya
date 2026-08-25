@@ -16,7 +16,7 @@
 <img width="748" height="658" alt="4nemo-scriptya-clickdere" src="https://github.com/user-attachments/assets/20e5bb0f-9cca-4822-9300-61cbe8873570" />
 
 * Update 25-08-2026. Nuevas Funciones: 
-- "Insertar Metadatos": asistente que rellena MENU/DESCRIPTION/CONFIRM/TERMINAL/SUDO/ORDER/ICON/ASK en un script existente sin tocarlo a mano (y también los edita o los borra de golpe).
+- "Insertar Metadatos": asistente que rellena MENU/DESCRIPTION/CONFIRM/TERMINAL/SUDO/ORDER/ICON/ASK en un script existente sin tocarlo a mano (y también los edita o los borra de golpe). Los metadatos también sirven para cambiar el nombre del acceso directo del escritorio y del menú automáticamente.
   
 - Integración con Nemo: 4 acciones de botón derecho (Lanzar/Instalar/Desinstalar/Cambiar icono) en el explorador de Cinnamon, activable/desactivable, sin dejar rastro en el sistema.
   
