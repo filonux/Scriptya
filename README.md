@@ -9,24 +9,17 @@
   y convierte cualquiera de ellos en una app de escritorio con su propio icono.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/bash-%3E%3D4.0-4EAA25?logo=gnubash&logoColor=white" alt="Bash 4+">
-  <img src="https://img.shields.io/badge/Linux%20Mint-22.3%20Cinnamon-87CF3E?logo=linuxmint&logoColor=white" alt="Linux Mint 22.3 Cinnamon">
-  <img src="https://img.shields.io/badge/licencia-GPLv3-blue" alt="Licencia GPLv3">
-</p>
 
----
-
-<img width="654" height="529" alt="menu-scriptya-actualizado" src="https://github.com/user-attachments/assets/720158e1-49e4-4343-978c-4bc9f6e83ee8" />
+<img width="655" height="530" alt="1menu-nuevo-scriptya" src="https://github.com/user-attachments/assets/68fae237-61dd-4732-8a69-d92647b3798d" />
+<img width="654" height="531" alt="2metadatos-scriptya" src="https://github.com/user-attachments/assets/0acd3f7f-e2e1-4ec6-98c0-7e4400f82a66" />
+<img width="653" height="531" alt="3integracion-nemo-scriptya" src="https://github.com/user-attachments/assets/7e2e232e-0415-4d05-81a3-81942721b86b" />
+<img width="748" height="658" alt="4nemo-scriptya-clickdere" src="https://github.com/user-attachments/assets/20e5bb0f-9cca-4822-9300-61cbe8873570" />
 
 - Update 25-08-2026. Nuevas Funciónes: 
 -"Insertar Metadatos" - asistente que rellena MENU/DESCRIPTION/CONFIRM/TERMINAL/SUDO/ORDER/ICON/ASK en un script existente sin tocarlo a mano (y también los edita o los borra de golpe).
 -Integración con Nemo - 4 acciones de botón derecho (Lanzar/Instalar/Desinstalar/Cambiar icono) en el explorador de Cinnamon, activable/desactivable, sin dejar rastro en el sistema.
 -"Icono para HTML" - dentro de "Cambiar Icono", da de alta una página web suelta como app independiente con su propio icono.
 -"Cambiar Icono": cambiar los iconos de los scripts o programas cualquiera que tengas instalados tantas veces como quieras. Puedes cambiar incluso el icono de Scriptya por el subido en este repositorio en lugar del genérico que utiliza al instalarse, o el de [LinuxMint Scripter](https://github.com/filonux/LinuxMint-Scripter) por el oficial de su propio repositorio, para que quede igual de bien integrado en el menú y en el escritorio.
-
-<img width="659" height="527" alt="2cambiar-icono-scriptya" src="https://github.com/user-attachments/assets/6cc7facb-22c2-4577-90f6-984add28f55a" />
-
 
 ## El problema que resuelve
 
