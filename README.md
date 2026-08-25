@@ -15,11 +15,13 @@
 <img width="653" height="531" alt="3integracion-nemo-scriptya" src="https://github.com/user-attachments/assets/7e2e232e-0415-4d05-81a3-81942721b86b" />
 <img width="748" height="658" alt="4nemo-scriptya-clickdere" src="https://github.com/user-attachments/assets/20e5bb0f-9cca-4822-9300-61cbe8873570" />
 
-- Update 25-08-2026. Nuevas Funciónes: 
--"Insertar Metadatos" - asistente que rellena MENU/DESCRIPTION/CONFIRM/TERMINAL/SUDO/ORDER/ICON/ASK en un script existente sin tocarlo a mano (y también los edita o los borra de golpe).
--Integración con Nemo - 4 acciones de botón derecho (Lanzar/Instalar/Desinstalar/Cambiar icono) en el explorador de Cinnamon, activable/desactivable, sin dejar rastro en el sistema.
--"Icono para HTML" - dentro de "Cambiar Icono", da de alta una página web suelta como app independiente con su propio icono.
--"Cambiar Icono": cambiar los iconos de los scripts o programas cualquiera que tengas instalados tantas veces como quieras. Puedes cambiar incluso el icono de Scriptya por el subido en este repositorio en lugar del genérico que utiliza al instalarse, o el de [LinuxMint Scripter](https://github.com/filonux/LinuxMint-Scripter) por el oficial de su propio repositorio, para que quede igual de bien integrado en el menú y en el escritorio.
+* Update 25-08-2026. Nuevas Funciónes: 
+- "Insertar Metadatos" - asistente que rellena MENU/DESCRIPTION/CONFIRM/TERMINAL/SUDO/ORDER/ICON/ASK en un script existente sin tocarlo a mano (y también los edita o los borra de golpe).
+  
+- Integración con Nemo - 4 acciones de botón derecho (Lanzar/Instalar/Desinstalar/Cambiar icono) en el explorador de Cinnamon, activable/desactivable, sin dejar rastro en el sistema.
+  
+- "Icono para HTML" - dentro de "Cambiar Icono", da de alta una página web suelta como app independiente con su propio icono.
+- "Cambiar Icono": cambiar los iconos de los scripts o programas cualquiera que tengas instalados tantas veces como quieras. Puedes cambiar incluso el icono de Scriptya por el subido en este repositorio en lugar del genérico que utiliza al instalarse, o el de [LinuxMint Scripter](https://github.com/filonux/LinuxMint-Scripter) por el oficial de su propio repositorio, para que quede igual de bien integrado en el menú y en el escritorio.
 
 ## El problema que resuelve
 
