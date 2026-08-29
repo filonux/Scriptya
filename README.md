@@ -161,4 +161,4 @@ GPLv3. Consulta el fichero [LICENSE](LICENSE).
 
 ---
 
-Hecho por **Filonux**.
+Hecho por **[Filonux](https://github.com/filonux)**.
