@@ -11,10 +11,10 @@
 
 <p align="center"><strong><a href="README.md">Leer en inglés</a></strong></p>
 
-<img width="655" height="530" alt="1menu-nuevo-scriptya" src="https://github.com/user-attachments/assets/68fae237-61dd-4732-8a69-d92647b3798d" />
-<img width="654" height="531" alt="2metadatos-scriptya" src="https://github.com/user-attachments/assets/0acd3f7f-e2e1-4ec6-98c0-7e4400f82a66" />
-<img width="653" height="531" alt="3integracion-nemo-scriptya" src="https://github.com/user-attachments/assets/7e2e232e-0415-4d05-81a3-81942721b86b" />
-<img width="748" height="658" alt="4nemo-scriptya-clickdere" src="https://github.com/user-attachments/assets/20e5bb0f-9cca-4822-9300-61cbe8873570" />
+<img width="657" height="441" alt="2-menu-es-scriptya" src="https://github.com/user-attachments/assets/e29e5446-1b0e-4119-968b-2e9483fa012a" />
+<img width="872" height="484" alt="3-demos-tests-scriptya" src="https://github.com/user-attachments/assets/60ae5608-e220-4d8d-a15e-3b348f6f63b3" />
+<img width="654" height="531" alt="4-metadata-es-scriptya" src="https://github.com/user-attachments/assets/58444c0d-eadb-4ec0-9106-68c30655f4e4" />
+<img width="748" height="658" alt="5-nemo-es-scriptya" src="https://github.com/user-attachments/assets/2574d80f-2df7-446b-a8fb-4dce4d6d393c" />
 
 *Actualización 10-09-2026. Novedades:*
 - **Muchos más tipos de script**: además de Shell, Scriptya ahora descubre, ejecuta y gestiona scripts de Python, Node.js, Perl, Ruby, Lua, Fish, AWK, PHP y Go, además de páginas HTML independientes — todos con metadatos (nombre, descripción, confirmación, orden, icono y más), iconos personalizados e integración completa con el menú y con Nemo, igual que los scripts `.sh` originales.
