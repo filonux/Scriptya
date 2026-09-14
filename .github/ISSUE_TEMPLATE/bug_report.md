@@ -11,28 +11,24 @@ assignees: ''
 A clear and concise description of what the bug is.
 
 **To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+Steps to reproduce the behavior, e.g.:
+1. Run `scriptya` (or `scriptya --install`, `--icons`, etc.)
+2. Select '...' from the menu
+3. Enter '...' when asked
 4. See error
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Screenshots or terminal output**
+If applicable, paste the relevant terminal output or a screenshot.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Environment (please complete the following information):**
+ - Distro and version: [e.g. Linux Mint 22.3 Cinnamon]
+ - Scriptya version: [output of `scriptya --version`]
+ - Installed as: [`--install`, `--desktop`, or running `./scriptya.sh` directly]
+ - Optional tools installed: [`fzf`, `zenity`, `imagemagick`, etc. — or "none"]
+ - File type involved, if any: [`.sh`, `.py`, `.js`, `.html`, etc.]
 
 **Additional context**
-Add any other context about the problem here.
+Add any other context about the problem here (e.g. contents of the script's metadata header, if relevant).
