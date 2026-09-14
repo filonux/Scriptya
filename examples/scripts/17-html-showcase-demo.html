@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- MENU: Demo — HTML Showcase -->
+<!-- DESCRIPTION: Self-contained page with gradients, cards and CSS animation -->
+<!-- CONFIRM: false -->
+<!-- ORDER: 170 -->
+<!-- ICON: ../assets/demo-blue.svg -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Scriptya HTML Showcase</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #0b0e14;
+    --panel: #12161f;
+    --border: #262c3a;
+    --text: #e7ecf7;
+    --dim: #8b93a7;
+    --accent: #7c9dff;
+    --accent2: #6ef2b3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; padding: 40px 20px;
+    display: grid; place-items: center;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(1200px 600px at 15% -10%, #22305a55, transparent),
+      radial-gradient(900px 500px at 110% 10%, #1f4a3a55, transparent),
+      var(--bg);
+  }
+  main { width: min(760px, 100%); }
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 14px; border-radius: 999px;
+    background: #7c9dff1a; border: 1px solid #7c9dff44;
+    color: var(--accent); font-size: 13px; font-weight: 600;
+    letter-spacing: .02em;
+  }
+  .badge .dot {
+    width: 8px; height: 8px; border-radius: 50%; background: var(--accent2);
+    box-shadow: 0 0 0 0 #6ef2b366;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 #6ef2b366; }
+    70%  { box-shadow: 0 0 0 8px #6ef2b300; }
+    100% { box-shadow: 0 0 0 0 #6ef2b300; }
+  }
+  h1 {
+    margin: 18px 0 6px; font-size: clamp(28px, 4vw, 40px); line-height: 1.15;
+    background: linear-gradient(90deg, var(--text), var(--accent));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  p.lead { margin: 0 0 28px; color: var(--dim); max-width: 60ch; }
+  .grid { display: flex; flex-wrap: wrap; gap: 14px; }
+  .card {
+    flex: 1 1 160px;
+    padding: 18px; border-radius: 16px; background: var(--panel);
+    border: 1px solid var(--border);
+    transition: transform .2s ease, border-color .2s ease;
+  }
+  .card:hover { transform: translateY(-3px); border-color: #7c9dff66; }
+  .card .icon { font-size: 22px; }
+  .card .num { font-size: 26px; font-weight: 700; margin: 6px 0 2px; }
+  .card .label { font-size: 13px; color: var(--dim); }
+  .bar-row { display: flex; align-items: center; gap: 10px; margin: 8px 0; }
+  .bar-row .name { width: 92px; font-size: 13px; color: var(--dim); flex: none; }
+  .bar-track { flex: 1; height: 10px; border-radius: 999px; background: #1b2130; overflow: hidden; }
+  .bar-fill {
+    height: 100%; border-radius: 999px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    animation: grow 1.2s ease-out both;
+  }
+  @keyframes grow { from { width: 0; } }
+  footer { margin-top: 28px; color: var(--dim); font-size: 13px; }
+  code { color: var(--accent2); }
+</style>
+</head>
+<body>
+<main>
+  <span class="badge"><span class="dot"></span> HTML_SHOWCASE_DEMO_OK</span>
+  <h1>Scriptya opens local pages like this one</h1>
+  <p class="lead">
+    Fully self-contained: no external fonts, scripts, or network requests.
+    Safe to launch straight from the menu with the default browser.
+  </p>
+
+  <div class="grid">
+    <div class="card"><div class="icon">📁</div><div class="num">14</div><div class="label">supported file types</div></div>
+    <div class="card"><div class="icon">🖱️</div><div class="num">1</div><div class="label">click to launch</div></div>
+    <div class="card"><div class="icon">🔒</div><div class="num">0</div><div class="label">network requests</div></div>
+    <div class="card"><div class="icon">🎨</div><div class="num">∞</div><div class="label">custom icons</div></div>
+  </div>
+
+  <div style="margin-top:28px;">
+    <div class="bar-row"><span class="name">Discovery</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div></div>
+    <div class="bar-row"><span class="name">Metadata</span><div class="bar-track"><div class="bar-fill" style="width:92%"></div></div></div>
+    <div class="bar-row"><span class="name">Icons</span><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+  </div>
+
+  <footer>
+    <code>17-html-showcase-demo.html</code> · rendered with plain CSS, no <code>&lt;script&gt;</code>
+  </footer>
+</main>
+</body>
+</html>
