@@ -11,13 +11,14 @@
 
 <p align="center"><strong><a href="README_ES.md">Read in Spanish</a></strong></p>
 
-<img width="648" height="440" alt="1-menu-en-scriptya" src="https://github.com/user-attachments/assets/d556eeb7-c9de-4d4d-a1f1-49cb309eb0fe" />
-<img width="872" height="484" alt="3-demos-tests-scriptya" src="https://github.com/user-attachments/assets/38e96590-d07f-41b6-b0cd-d05194889e5f" />
-<img width="653" height="631" alt="4-metadata-en-scriptya" src="https://github.com/user-attachments/assets/9b2f94d0-c51d-420c-a181-5c6a2a710ada" />
-<img width="204" height="103" alt="5-nemo-en-scriptya" src="https://github.com/user-attachments/assets/810aba8f-8ddd-48a7-9a14-4b2285e92a76" />
+<img width="655" height="530" alt="1menu-nuevo-scriptya" src="https://github.com/user-attachments/assets/68fae237-61dd-4732-8a69-d92647b3798d" />
+<img width="654" height="531" alt="2metadatos-scriptya" src="https://github.com/user-attachments/assets/0acd3f7f-e2e1-4ec6-98c0-7e4400f82a66" />
+<img width="653" height="531" alt="3integracion-nemo-scriptya" src="https://github.com/user-attachments/assets/7e2e232e-0415-4d05-81a3-81942721b86b" />
+<img width="748" height="658" alt="4nemo-scriptya-clickdere" src="https://github.com/user-attachments/assets/20e5bb0f-9cca-4822-9300-61cbe8873570" />
 
 *Update 10-09-2026. What's new:*
 - **Many more script types**: beyond Shell, Scriptya now discovers, runs and manages Python, Node.js, Perl, Ruby, Lua, Fish, AWK, PHP and Go scripts, as well as standalone HTML pages — all with metadata (name, description, confirmation, order, icon, and more), custom icons, and full menu/Nemo integration, just like the original `.sh` scripts.
+- **HTML pages are now managed by Scriptya too**: run them, turn them into standalone apps with their own icon, insert or edit their metadata as HTML comments, and control them from Nemo — the same workflow as any other script type.
 - **Full English guide**: this README is now complete in English, matching the Spanish version section by section.
 - "Insert Metadata": a wizard that fills MENU/DESCRIPTION/CONFIRM/TERMINAL/SUDO/ORDER/ICON/ASK in an existing script without editing it by hand (and also edits or removes them all at once). The metadata can also be used to change the name of the desktop and application-menu shortcut automatically.
   
