@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest. Here's the basics:
+Here's the basics:
 
 ## Report a bug or propose an improvement
 
