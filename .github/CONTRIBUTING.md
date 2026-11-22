@@ -15,7 +15,7 @@ Open an issue — there's a template for each case.
    - the test suite, `bash tests/test_scriptya.sh`: about 8 minutes, run as a regular user (not root) with `script/scriptya.sh` and `tests/test_scriptya.sh` executable (`chmod +x` them if a download lost the bit). It prints `PASS` or `FAIL` for each check, ends with `Total: N passed, M failed` and must leave the working tree untouched (block 14.3 checks it). The header of `tests/test_scriptya.sh` lists the tools it needs and explains how to run a single block and how to write a test.
 
    If you can also test it on Linux Mint/Cinnamon (the environment it's developed on), even better.
-3. Open the pull request — the template will guide you on what to include.
+3. Open the pull request — template will guide you on what to include.
 
 ## Code style
 
