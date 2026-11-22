@@ -23,7 +23,7 @@ A clear and concise description of what you expected to happen.
 **Screenshots or terminal output**
 If applicable, paste the relevant terminal output or a screenshot.
 
-**Environment (please complete the following information):**
+**Environment (complete the following information):**
  - Distro and version: [e.g. Linux Mint 22.3 Cinnamon]
  - Scriptya version: [output of `scriptya --version`]
  - Installed as: [`--install`, `--desktop`, or running `./scriptya.sh` directly]
